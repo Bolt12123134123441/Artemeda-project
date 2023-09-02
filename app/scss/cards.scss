@@ -1,0 +1,62 @@
+/* Home cards */
+.home-cards {
+ height: max-content;
+  padding: 90px 165px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+    @media screen and (max-width: 760px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px;
+    }
+ 
+.card-section{
+  width: 225px;
+}
+.card-title{
+  padding: 10px 0;
+  color: #666;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+   .card-sub-title{
+    
+    color: #B5B5BD;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+ 
+.card-paragraf{
+  padding: 10px 0;
+  color: #85859B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+ 
+}
+
+.card-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: hsla(241, 98%, 73%, 1);
+
+& i:hover{
+  margin-left: 10px;
+}
+
+}
+
+
+  }
+  
+ 

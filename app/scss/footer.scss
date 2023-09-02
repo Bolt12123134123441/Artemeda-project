@@ -1,0 +1,39 @@
+.footer{
+    height: 101px;
+   
+    background-color: hsla(212, 15%, 35%, 1);
+
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 35px 75px;    
+}
+
+.footer-list{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-copy{
+margin: 2px 0;
+height: 21px;
+background-color: #fff;
+text-align: center;   
+text-transform: uppercase;
+color: hsla(0, 0%, 74%, 1);    
+    
+   
+    
+}
+
+.footer-brand{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 20px;
+    color: #fff;
+}

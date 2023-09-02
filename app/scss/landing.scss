@@ -1,0 +1,38 @@
+
+
+.landing-page .content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    
+.image{
+    height: 560px;
+margin-top: 32px;
+   
+@media only screen and (max-width: 720px) {
+    display: none;
+}
+    
+}
+    .info .header-info{
+        font-size: 60px;
+        color: hsla(212, 15%, 35%, 1);
+        width: 445px;
+    }
+
+    .info .paragrafer-info{
+        margin: 20px 0;
+        line-height: 27px;
+        font-size: 18px;
+        color: hsla(212, 15%, 35%, 1);
+        width: 445px;
+    }
+  }
+
+  .container {
+   padding: 0 5%;
+  
+  }
+
+  

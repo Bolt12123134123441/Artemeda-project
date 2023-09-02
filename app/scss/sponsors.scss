@@ -1,0 +1,39 @@
+.sponsors{
+    height: 250px;
+    background-color: #EBEBEB;;
+
+    @media screen and (max-width: 760px) {
+      height: 500px;
+      }
+
+.sponsors-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 57.5px 165px;
+
+
+    @media screen and (max-width: 760px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        height: 500px;
+      }
+}
+
+.sponsor-section{
+    border: 1px solid #C4C4C4;
+    display: flex;
+width: 255px;
+height: 135px;
+padding: 34px 29px 46px 29px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+}
+
+
+

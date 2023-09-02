@@ -1,0 +1,35 @@
+.book .content-book {
+ 
+
+
+    .container-book{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   padding: 0 165px;
+   margin-top: 90px;
+   }
+
+    .book-img{
+        
+        height: 410px;
+    }
+
+
+    .book-info{
+        padding: 2% 0;
+        width: 350px;
+
+
+        .book-title-info{
+         font-size: 40px;
+         color: hsla(0, 0%, 40%, 1);
+        }
+
+        .book-paragrafer-info{
+            font-size: 18px;
+            margin: 20px 0;
+            color: hsla(240, 10%, 56%, 1);
+        }
+    }
+}

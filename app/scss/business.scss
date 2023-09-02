@@ -1,0 +1,101 @@
+.business{
+    height: 973px;
+    background-color: #EBEBEB; 
+    padding: 90px 165px;
+    @media only screen and (max-width: 720px) {
+        padding: 15px;
+        height: 1946px;
+        width: 700px;
+    }
+
+    .business-container{
+       height: 793px;
+       width: 77vw;
+      
+    
+
+ 
+
+       .business-container-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+       @media only screen and (max-width: 720px) {
+            display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+       
+        }
+
+
+        .business-container-card{
+            display: flex;
+            padding: 15px 0 0;
+            height: inherit;
+            border-top: 1px solid #C0C0C0;
+            gap: 65px;
+
+            .business-container-card-text{
+            padding: 25px 0;
+
+            .business-container-card-text small{
+                color: hsba(0, 0%, 40%, 1);
+                font-size: 18px;
+                line-height: 150%; 
+            }
+
+            .business-paragraf-text{
+                color: #85859B;
+                font-size: 18px;
+                line-height: 150%; 
+            }
+            @media only screen and (max-width: 720px) {
+                display: flex;
+          justify-content: center;
+            
+           
+            }
+          
+            }
+        }
+       }
+
+
+       .business-container-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin-top: 90px;
+
+        .business-container-info-img{
+            @media only screen and (max-width: 720px) {
+                width: 290px;
+                height: 223px;
+             
+            }
+        }
+        
+        .business-container-info-text{
+            justify-self: end;
+            width: 350px;
+            margin: 59.5px 0;
+
+           
+         .business-container-info-title{
+                font-size: 40px;
+                color: #666;
+                line-height: 100%; 
+             }
+
+
+             .business-container-info-paragraf{
+                font-size: 18px;
+                line-height: 170%; 
+                color: #85859B;
+              }
+         }
+
+        
+       }
+    }
+}
